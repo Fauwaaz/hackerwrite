@@ -59,4 +59,4 @@ jobs:
           app-name: 'hackerwrite'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F632CC0EAD99488199898262319A10EE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE3F9BE2357D4EB8B76FD249CD413EF2 }}
