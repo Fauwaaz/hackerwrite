@@ -7,7 +7,7 @@ const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
   const server = express();
-  const port = 3000;
+  const port = process.env.PORT || 8080;
 
   server.all('*', (req, res) => {
     return handle(req, res);
